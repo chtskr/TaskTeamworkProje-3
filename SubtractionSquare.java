@@ -51,9 +51,9 @@ public class SubtractionSquare {
     private static int substSquare() {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("birinci sayıyı giriniz");
+        System.out.println("birinci sayıyı giriniz:)");
         int sayı1 = sc.nextInt();
-        System.out.println("ikinci sayıyı giriniz");
+        System.out.println("ikinci sayıyı giriniz:)");
         int sayı2 = sc.nextInt();
 
 

@@ -35,7 +35,7 @@ public class CamelCase {
 
         //System.out.println(camelCase());
         Scanner scanner =   new Scanner(System.in);
-        System.out.println(" agam bir cümle giriniz : ");
+        System.out.println(" agam bir cümle giriniz :) ");
         String cumle= scanner.nextLine();
         System.out.println(cumle.substring(0).toUpperCase(Locale.ROOT));
 
