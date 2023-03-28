@@ -53,7 +53,7 @@ public class SubtractionSquare {
         Scanner sc = new Scanner(System.in);
         System.out.println("birinci sayıyı giriniz:)");
         int sayı1 = sc.nextInt();
-        System.out.println("ikinci sayıyı giriniz:)");
+        System.out.println("ikinci sayıııııyı giriniz:)");
         int sayı2 = sc.nextInt();
 
 
