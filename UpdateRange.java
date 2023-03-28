@@ -1,5 +1,7 @@
 package PROJECTS.PROJECTS03;
 
+import java.util.Arrays;
+
 public class UpdateRange {
 
 
@@ -44,9 +46,28 @@ public class UpdateRange {
     public static void main(String[] args) {
 
 
+        int arr [] = {1,6,12,15,22,18,30,16};
+
+        int sayi1 =10;
+        int sayi2 =20;
+
+      URange (arr,sayi1,sayi2);
+
+
+
 
     }
 
+    private static int[] URange(int[] arr, int sayi1, int sayi2) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] >= sayi1 && arr[i] <= sayi2) {
+                arr[i] = -1;
+            }
+
+        }
+        System.out.println(Arrays.toString(arr));
+        return arr;
+    }
 
 
 }
