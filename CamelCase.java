@@ -1,6 +1,7 @@
-package PROJECTS.PROJECTS03;
+package TeamWork.Project_03;
 
-import java.util.Locale;
+import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class CamelCase {
@@ -32,24 +33,21 @@ public class CamelCase {
      */
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Cümle Giriniz");
+        String letter = sc.nextLine();
 
-        //System.out.println(camelCase());
-        Scanner scanner =   new Scanner(System.in);
-        System.out.println(" agam cümmleeeee giriniz1 :) ");
-        String cumle= scanner.nextLine();
-        System.out.println(cumle.substring(0).toUpperCase(Locale.ROOT));
-
-    }
-
-    private static void camelCase() {
+        String letter1[] = letter.split(" ");
+        System.out.println(Arrays.toString(letter1)); //[I, lIVe, in, uSa]
 
 
+        for (int i = 0; i < letter1.length; i++) {
+            System.out.print(letter1[i].substring(0, 1).toUpperCase() + letter1[i].substring(1).toLowerCase() + " ");
 
 
-    }
-
+        }
 
     }
-
+}
 
 
