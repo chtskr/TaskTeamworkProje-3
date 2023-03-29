@@ -43,22 +43,26 @@ public class SubtractionSquare {
     return 3250
     */
     public static void main(String[] args) {
-        substSquare();
+
+        int sayi1 = 10;
+        int sayi2 = 5;
+        System.out.println(getSumOfSquares(sayi1, sayi2));
 
 
+    }
+
+    private static int getSumOfSquares(int sayi1, int sayi2) {
+        int sayi1Toplam = 0;
+        int sayi2Toplam = 0;
+        for (int i = 1; i <= sayi1; i++) {
+            sayi1Toplam += i;
+        }
+        for (int j = 1; j <= sayi2; j++) {
+            sayi2Toplam += j;
         }
 
-    private static int substSquare() {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("birinci sayıyı giriniz:)");
-        int sayı1 = sc.nextInt();
-        System.out.println("ikinci sayıııııyı giriniz:)");
-        int sayı2 = sc.nextInt();
-
-
-
-        return 0;
+        return ((sayi1Toplam * sayi1Toplam) + (sayi2Toplam * sayi2Toplam));
     }
 
 
