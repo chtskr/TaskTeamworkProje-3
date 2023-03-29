@@ -48,7 +48,6 @@ public class SubtractionSquare {
         int sayi2 = 5;
         System.out.println(getSumOfSquares(sayi1, sayi2));
 
-
     }
 
     private static int getSumOfSquares(int sayi1, int sayi2) {
